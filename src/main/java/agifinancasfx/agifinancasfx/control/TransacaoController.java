@@ -140,14 +140,14 @@ public class TransacaoController implements Initializable {
 
     @FXML
     void onCartao(ActionEvent event) {
-        try {
-            if (CartaoView == null) {
-                GeradorCenas cenas = new GeradorCenas();
-                cenas.gerarNovoStage("Cartao.fxml", "Cartao", false, event);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            if (CartaoView == null) {
+//                GeradorCenas cenas = new GeradorCenas();
+//                cenas.gerarNovoStage("Cartao.fxml", "Cartao", false, event);
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
     }
 

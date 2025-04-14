@@ -53,14 +53,14 @@ public class RelatorioController {
 
         @FXML
         void irCartao(ActionEvent event) {
-            try {
-                if (cartaoView == null) {
-                    GeradorCenas cenas = new GeradorCenas();
-                    cenas.gerarNovoStage("Cartao.fxml", "Cartao", false, event);
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                if (cartaoView == null) {
+//                    GeradorCenas cenas = new GeradorCenas();
+//                    cenas.gerarNovoStage("Cartao.fxml", "Cartao", false, event);
+//                }
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
 
         }
 
@@ -69,14 +69,14 @@ public class RelatorioController {
 
         @FXML
         void irDespesas(ActionEvent event) {
-            try {
-                if (despesaView == null) {
-                    GeradorCenas cenas = new GeradorCenas();
-                    cenas.gerarNovoStage("despesa.fxml", "Despesa", false, event);
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                if (despesaView == null) {
+//                    GeradorCenas cenas = new GeradorCenas();
+//                    cenas.gerarNovoStage("despesa.fxml", "Despesa", false, event);
+//                }
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
 
         }
 
@@ -99,14 +99,14 @@ public class RelatorioController {
 
         @FXML
         void irReceitas(ActionEvent event) {
-            try {
-                if (receitasView == null) {
-                    GeradorCenas cenas = new GeradorCenas();
-                    cenas.gerarNovoStage("receitas.fxml", "Receitas", false, event);
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                if (receitasView == null) {
+//                    GeradorCenas cenas = new GeradorCenas();
+//                    cenas.gerarNovoStage("receitas.fxml", "Receitas", false, event);
+//                }
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
 
         }
 
@@ -115,14 +115,14 @@ public class RelatorioController {
 
         @FXML
         void irReservas(ActionEvent event) {
-            try {
-                if (despesaView == null) {
-                    GeradorCenas cenas = new GeradorCenas();
-                    cenas.gerarNovoStage("minhasReservas.fxml", "Minhas Reservas", false, event);
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                if (despesaView == null) {
+//                    GeradorCenas cenas = new GeradorCenas();
+//                    cenas.gerarNovoStage("minhasReservas.fxml", "Minhas Reservas", false, event);
+//                }
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
 
         }
 

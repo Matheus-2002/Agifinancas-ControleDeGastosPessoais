@@ -41,14 +41,14 @@ public class CriarCategoriaController implements Initializable {
     }
     @FXML
     public void adicionarCategoria(ActionEvent event) throws SQLException, ClassNotFoundException, IOException {
-        Categoria categoria = new Categoria(usuarioAutenticado.getIdUsuario(), txtNomeCategoria.getText(), cbDescricao.getValue(), Double.parseDouble(txtLimiteCategoria.getText()));
-        dao.CriarCategoria(usuarioAutenticado, categoria);
-        txtNomeCategoria.clear();
-        txtLimiteCategoria.clear();
-        cbDescricao.getSelectionModel().clearSelection();
-        CriarAlertas.CriarAlerta("Sucesso", "Categoria cadastrada com sucesso!", Alert.AlertType.CONFIRMATION);
-        GeradorCenas cenas = new GeradorCenas();
-        cenas.gerarNovoStage("Menu.fxml", "Menu", false, event);
+//        Categoria categoria = new Categoria(usuarioAutenticado.getIdUsuario(), txtNomeCategoria.getText(), cbDescricao.getValue(), Double.parseDouble(txtLimiteCategoria.getText()));
+//        dao.CriarCategoria(usuarioAutenticado, categoria);
+//        txtNomeCategoria.clear();
+//        txtLimiteCategoria.clear();
+//        cbDescricao.getSelectionModel().clearSelection();
+//        CriarAlertas.CriarAlerta("Sucesso", "Categoria cadastrada com sucesso!", Alert.AlertType.CONFIRMATION);
+//        GeradorCenas cenas = new GeradorCenas();
+//        cenas.gerarNovoStage("Menu.fxml", "Menu", false, event);
     }
 
     @FXML

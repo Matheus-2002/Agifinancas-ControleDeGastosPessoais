@@ -23,8 +23,9 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.ResourceBundle;
 
+import static agifinancasfx.agifinancasfx.control.GeradorCenas.usuarioAutenticado;
+
 public class MenuController implements Initializable {
-    Usuario usuarioAutenticado = UsuarioSessao.getInstance().getUsuario();
     @FXML
     private Label labelSaldo;
     @FXML
@@ -46,12 +47,12 @@ public class MenuController implements Initializable {
 
     @FXML
     private void gerenciarCategorias(ActionEvent event) {
-        try {
-            GeradorCenas cenas = new GeradorCenas();
-            cenas.gerarNovoStage("CardCategoria.fxml", "Gerenciar Categorias", false, event);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            GeradorCenas cenas = new GeradorCenas();
+//            cenas.gerarNovoStage("CardCategoria.fxml", "Gerenciar Categorias", false, event);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
 
     @FXML
@@ -89,20 +90,20 @@ public class MenuController implements Initializable {
     }
 
     public void atualizarCategorias(ActionEvent event) {
-        try {
-            GeradorCenas cenas = new GeradorCenas();
-            cenas.gerarNovoStage("EditarCategoria2.fxml", "Gerenciar Categorias", false, event);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            GeradorCenas cenas = new GeradorCenas();
+//            cenas.gerarNovoStage("EditarCategoria2.fxml", "Gerenciar Categorias", false, event);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
     public void excluirCategoria(ActionEvent event) {
-        try {
-            GeradorCenas cenas = new GeradorCenas();
-            cenas.gerarNovoStage("ExcluirCategoria.fxml", "Excluir Categorias", false, event);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            GeradorCenas cenas = new GeradorCenas();
+//            cenas.gerarNovoStage("ExcluirCategoria.fxml", "Excluir Categorias", false, event);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
     @FXML
     public void voltarMenu(ActionEvent event) throws IOException {

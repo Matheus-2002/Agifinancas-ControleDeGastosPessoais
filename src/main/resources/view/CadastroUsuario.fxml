@@ -15,22 +15,20 @@
         <URL value="@style.css" />
     </stylesheets>
     <children>
-        <ImageView fitHeight="74.0" fitWidth="120.0" layoutX="95.0" layoutY="20.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="99.0" fitWidth="150.0" layoutX="81.0" layoutY="46.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/logo.png" />
             </image>
         </ImageView>
-        <Label fx:id="lblNovoUsuario" layoutX="32.0" layoutY="117.0" styleClass="titulo-login" text="Novo usuário">
+        <Label fx:id="lblNovoUsuario" layoutX="30.0" layoutY="188.0" styleClass="titulo-login" text="Novo usuário">
             <font>
                 <Font name="System Bold" size="20.0" />
             </font>
         </Label>
-        <TextField fx:id="txtNome" layoutX="30.0" layoutY="157.0" promptText="Digite seu nome" styleClass="text-field" />
-        <TextField fx:id="txtSobrenome" layoutX="30.0" layoutY="217.0" promptText="Digite seu sobrenome" styleClass="text-field" />
-        <TextField fx:id="txtCPF" layoutX="30.0" layoutY="277.0" promptText="Digite seu CPF" />
-        <TextField fx:id="txtEmail" layoutX="30.0" layoutY="337.0" promptText="Digite seu e-mail" styleClass="text-field" />
-        <PasswordField fx:id="txtPassword" layoutX="30.0" layoutY="397.0" promptText="Digite sua senha" styleClass="password-field" />
-        <PasswordField fx:id="txtPasswordAgain" layoutX="30.0" layoutY="457.0" promptText="Digite a senha novamente" styleClass="password-field" />
+        <TextField fx:id="txtNome" layoutX="30.0" layoutY="238.0" promptText="Digite seu nome" styleClass="text-field" />
+        <TextField fx:id="txtEmail" layoutX="30.0" layoutY="308.0" promptText="Digite seu e-mail" styleClass="text-field" />
+        <PasswordField fx:id="txtPassword" layoutX="30.0" layoutY="378.0" promptText="Digite sua senha" styleClass="password-field" />
+        <PasswordField fx:id="txtPasswordAgain" layoutX="30.0" layoutY="448.0" promptText="Digite a senha novamente" styleClass="password-field" />
         <Button fx:id="btnCadastrar" layoutX="80.0" layoutY="534.0" mnemonicParsing="false" onAction="#cadastrarUsuario" styleClass="button-acessar" text="Cadastrar">
             <font>
                 <Font name="System Bold" size="18.0" />
